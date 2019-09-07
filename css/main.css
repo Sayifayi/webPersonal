@@ -18,6 +18,7 @@
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow-y: hidden;
 }
 
 /*
@@ -216,6 +217,7 @@ h1:hover {
 img {
   max-width: 100%;
   vertical-align: middle;
+  overflow-y: hidden;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -256,11 +258,12 @@ img {
 }
 
 #imgHome{
+  position: relative;
   margin: 0;
 	float: left;
 	width: 700px;
-  min-height: 100%;
-  overflow: hidden;
+  max-height: 100vh;
+  overflow-y: hidden;
 	background-color:#FFFFFF;
 }
 
